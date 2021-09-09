@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="resources/images">
+    <title>My Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <strong>Welcome to your dashboard!</strong>
+    </header>
+    <section>
+        <div>
+            <img src="resources/images/Flamingo.jpg" alt="flamingo" width="300px">
+        </div>
+        <div>
+            <ul>
+                <li>John Doe</li>
+                <li>27/06/1993</li>
+                <li>Software Engineering</li>
+            </ul>
+        </div>
+        <div>
+            <strong>2.65</strong>
+        </div>
+    </section>
+    <section>
+        <h1>Courses</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Course Title</th>
+                    <th>Semester</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://courses.cs.ut.ee/2021/ASD/fall">Agile software development</a></td>
+                    <td>1</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://courses.cs.ut.ee/2021/sm/fall">System modeling</a></td>
+                    <td>1</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="">Object-oriented programming</a></td>
+                    <td>2</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="">Estonian language Level A2</a></td>
+                    <td>2</td>
+                    <td>65</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td>SUM</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tfoot>
+        </table>
+    </section>
+    <section>
+        <br><br>
+        <form action="">
+            <label for="Cname">Course name: </label>
+            <input type="text" id="Cname" name="Cname">
+            <br><br>
+            <label for="Lname">Lecturer: </label>
+            <input type="text" id="Lname" name="Lname">
+            <br><br>
+            <label for="code">Course code: </label>
+            <input type="text" id="code" name="code">
+
+            <p>Time: </p>
+            <input type="radio" id="Autumn" name="season">
+            <label for="season">Autumn</label>
+            <input type="radio" id="spring" name="season">
+            <label for="season">Spring</label>
+            <br><br>
+            <input type="submit" value="Submit">
+            <br>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://ois2.ut.ee/" target="_blank">OIS</a>
+            </li>
+            <li>
+                <a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
